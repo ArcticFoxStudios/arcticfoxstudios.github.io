@@ -25,7 +25,6 @@ html{
   padding: 0;
 }
 .menu li{
-  display: inline;
   padding:8px;
   margin-bottom:7px;
   background-color: #33b5e5
@@ -93,4 +92,7 @@ rgba(0,0,0,0.24);
   width: auto;
   padding-top: 2.5px;
   padding-left: 2.5px;
+}
+.top-bar{
+  display:inline;
 }
