@@ -59,6 +59,7 @@ rgba(0,0,0,0.24);
   padding: 15px;
   position: fixed;
   bottom: 1px;
+  width:98%;
 }
 /*for mobile phones*/
 [class*="col-"]{
