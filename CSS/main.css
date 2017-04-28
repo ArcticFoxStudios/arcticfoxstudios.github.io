@@ -36,6 +36,13 @@ rgba(0,0,0,0.24);
 .menu li:hover{
   background-color: #0099cc;
 }
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .aside{
   background-color: #33b5e5
   padding: 15px;
