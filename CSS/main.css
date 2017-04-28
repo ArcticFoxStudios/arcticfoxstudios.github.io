@@ -59,7 +59,7 @@ rgba(0,0,0,0.24);
   padding-right:15px;
   position: fixed;
   bottom: 1px;
-  width:100%;
+  
 }
 /*for mobile phones*/
 [class*="col-"]{
