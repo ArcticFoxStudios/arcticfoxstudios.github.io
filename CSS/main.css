@@ -135,3 +135,7 @@ article{
 article h2{
   padding: 20px;
 }
+.signiature{
+  font-style: italic;
+  float:right;
+}
