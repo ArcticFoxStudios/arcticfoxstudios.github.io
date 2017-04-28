@@ -8,7 +8,7 @@
 }
 [class*="col-"]{
   float: left;
-  padding:15px;
+  padding:.5%;
 }
 html{
   background-color: #444444;
@@ -59,7 +59,7 @@ rgba(0,0,0,0.24);
   padding-right:15px;
   position: fixed;
   bottom: 1px;
-  
+  width: 99.5%;
 }
 /*for mobile phones*/
 [class*="col-"]{
