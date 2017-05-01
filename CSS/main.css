@@ -134,6 +134,7 @@ article{
   border-color: white;
   border-width: 1px;
   border-radius: 3px;
+  background-color: #777777;
 }
 .article-content{
   padding: 20px;
