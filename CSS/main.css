@@ -143,3 +143,7 @@ article{
   font-style: italic;
   float:right;
 }
+pre {
+  white-space: pre-wrap;
+  background-color: #555555;
+}
