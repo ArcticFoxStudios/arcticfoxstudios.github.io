@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+<link rel="stylesheet" href="main.css">
+<div class="main-body" style="padding:0px;margin-top:45px;">
+<img src="http://www.a1pc.repair/main/images/A1_pc_banner.png" alt "A1 Computer Repair" height=100% width=100% >
+</div>
+
+<body>
+<div class="main-body" style="padding: 0px;margin-top:1%;font-family: 'PT Sans', sans-serif;">
+
+
+<h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides fade" src="/images/A1_App.png" style="width:100%">
+  <img class="mySlides fade" src="/images/A1_pc.png" style="width:100%">
+  <img class="mySlides fade" src="/images/A1_TV.png" style="width:100%">
+</div>
+</div>
+</body>
+<div style="margin:20%;background-color:#ffffff;height:30px;">
+<style>
+body {margin:0px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: Fixed;
+    top: 0px;
+    width: 60%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff0000;
+}
+</style>
+
+</head>
+
+<style>
+.mySlides {display:none;}
+</style>
+
+<body>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+</html>
+
