@@ -138,6 +138,11 @@
 	max-width:100%;
 	}
 }
+.paragraph{
+	max-width:99%;
+	margin: 5px auto;
+	font-size: 1.3em;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
