@@ -75,12 +75,12 @@ body {
 @media (max-width:1280px) {
 	.text {
 		color: #f2f2f2;
-		font-size: .7em;
+		font-size: .5em;
 		font-style: bold;
 		color: black;
 		padding: 8px 12px;
 		position: absolute;
-		bottom: 10px;
+		bottom: 15px;
 		width: 100%;
 		text-align: left;
 	}
@@ -149,6 +149,42 @@ body {
 .paragraph{
 	font-size: 1em;
 }
+}
+@media screen and (max-width:1280px) {
+#image1{
+	content: url("Images/beach_photo_2.jpg");
+	width:100%;
+	}
+}
+@media screen and (max-width:1280px) {
+#image2{
+	content: url("Images/hotel_photo_2.jpg");
+	width:100%;
+	}
+}
+@media screen and (max-width:1280px) {
+#image3{
+	content: url("Images/Infinity_logo_1.jpg");
+	width:100%;
+	}
+}
+@media screen and (min-width:1281px) {
+#image1{
+	content: url("Images/beach_photo.jpg");
+	width:100%;
+	}
+}
+@media screen and (min-width:1281px) {
+#image2{
+	content: url("Images/hotel_photo.jpg");
+	width:100%;
+	}
+}
+@media screen and (min-width:1281px) {
+#image3{
+	content: url("Images/Infinity_logo_2.jpg");
+	width:100%;
+	}
 }
 @-webkit-keyframes fade {
   from {opacity: .4} 
