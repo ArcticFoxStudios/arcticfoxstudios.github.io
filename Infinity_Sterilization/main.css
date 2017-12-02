@@ -148,6 +148,7 @@ body {
 @media (max-width:1280px){
 .paragraph{
 	font-size: 1em;
+	max-width:85%;
 }
 }
 @media screen and (max-width:1280px) {
