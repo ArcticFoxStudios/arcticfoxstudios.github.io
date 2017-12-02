@@ -67,7 +67,7 @@ body {
   color: black;
   padding: 8px 12px;
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   width: 100%;
   text-align: left;
   background-color: rgba(0,0,0,0.3);
@@ -80,7 +80,7 @@ body {
 		color: black;
 		padding: 8px 12px;
 		position: absolute;
-		bottom: 15px;
+		bottom: 10px;
 		width: 100%;
 		text-align: left;
 	}
