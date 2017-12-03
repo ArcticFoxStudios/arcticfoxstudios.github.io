@@ -130,6 +130,7 @@ body {
 }
 .content{
 	max-width:80%;
+	height:850px;
 	margin:5px auto;
 	background-color: white;
 	border-style: solid;
@@ -186,6 +187,40 @@ body {
 	content: url("Images/Infinity_logo_2.jpg");
 	width:100%;
 	}
+}
+.column{
+	float: left;
+	width: 32%;
+	padding: 5px;
+
+}
+@media (max-width:1280px){
+.column{
+	width:100%;
+	}
+}
+.vl{
+	border-style: solid;
+	border-width: 1px;
+	height: 250px;
+	width: 1px;
+	float: right;
+	border-color: rgba(0,0,0,0.3)
+}
+.hl{
+	border-style: solid;
+	border-width: 1px;
+	width: 80%;
+	height: 1px;
+	margin: auto;
+	border-color: rgba(0,0,0,0.3)
+}
+.container{
+	max-width: 70%;
+	margin:auto;
+}
+.footer{
+	text-align:center;
 }
 @-webkit-keyframes fade {
   from {opacity: .4} 
